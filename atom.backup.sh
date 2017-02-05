@@ -8,3 +8,6 @@
 apm install sync-settings
 
 # for recover the data, in the command pallete 'sync-settings:fork'
+
+# if sync-settings it's doesn't working
+# you can install atom.list.txt doing this: 'apm install --packages-file atom.list.txt'
