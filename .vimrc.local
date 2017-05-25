@@ -1,0 +1,60 @@
+Plugin 'crusoexia/vim-monokai'
+Plugin 'mxw/vim-jsx'
+Plugin 'chemzqm/vim-jsx-improve'
+Plugin 'trusktr/seti.vim'
+Plugin 'mtscout6/syntastic-local-eslint.vim'
+Plugin 'ternjs/tern_for_vim'
+
+" autocomplete with neocomplete
+ let g:neocomplete#enable_at_startup = 1
+"""""""""""""""""
+" Tern settings
+"""""""""""""""""
+let g:tern_show_argument_hints='on_hold'
+" and 
+let g:tern_map_keys=1
+""
+""
+let g:jsx_ext_required = 0
+
+set backspace=2 " make backspace work like most other apps"
+set backspace=indent,eol,start
+:fixdel
+
+syntax on
+colorscheme monokai
+set t_Co=256
+
+filetype plugin indent on
+"convert tabs to spaces"
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set softtabstop=2
+
+"add special characters to space adn tab
+set list
+set listchars=tab:>-,trail:~,extends:>
+hi NonText ctermfg=7 guifg=gray
+
+let g:javascript_plugin_jsdoc = 1
+
+
+" syntactic configuration for eslint
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_loc_list_height = 3
+let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 1
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_error_symbol = '❌'
+let g:syntastic_style_error_symbol = '⁉️'
+let g:syntastic_warning_symbol = '⚠️'
+let g:syntastic_style_warning_symbol = '💩'
+highlight link SyntasticErrorSign SignColumn
+highlight link SyntasticWarningSign SignColumn
+highlight link SyntasticStyleErrorSign SignColumn
+highlight link SyntasticStyleWarningSign SignColumn
