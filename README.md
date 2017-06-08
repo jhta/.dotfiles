@@ -1,4 +1,6 @@
-I'm using **TMUX** and **VIM** as IDE for Javascript.
+# Configuration
+
+I'm using **TMUX** and **VIM** for my terminal.
 
 For VIM I used this plugin collection:  
 http://vim.spf13.com/
