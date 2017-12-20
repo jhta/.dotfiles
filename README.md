@@ -31,6 +31,14 @@ I'm using **TMUX** and **VIM** for my terminal.
 For VIM I used this plugin collection:  
 http://vim.spf13.com/
 
+copy the local VIM settings:
+
+`cp .vimrc.local $HOME/`
+
+install plugins:
+
+`vim +BundleInstall! +BundleClean +q`
+
 This has awesome plugins like Bundle, PowerLine, NerdTree and ControlP.  
 
 For TMUX I used this configuration:  
