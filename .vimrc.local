@@ -3,7 +3,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'chemzqm/vim-jsx-improve'
 Plugin 'trusktr/seti.vim'
 Plugin 'mtscout6/syntastic-local-eslint.vim'
-Plugin 'ternjs/tern_for_vim'
+
 
 " autocomplete with neocomplete
  let g:neocomplete#enable_at_startup = 1
