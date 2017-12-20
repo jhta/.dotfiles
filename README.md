@@ -1,5 +1,31 @@
 # Configuration
 
+### base tools
+`sudo apt-get install vim tmux curl`
+
+### github ssh keys
+`git clone https://github.com/jhta/gen-ssh-key && cd gen-ssh-key && sh generate-and-send-ssh-key.sh -u jeisonhs93 -d gmail.com`
+
+### oh my zhell
+First install `zsh` terminal
+
+Ubuntu/Debian:
+
+`sudo apt-get install zsh`
+
+Mac:
+
+`brew install zsh`
+
+install [oh-my-zhell](https://github.com/robbyrussell/oh-my-zsh):
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+make zsh the default terminal:
+
+`chsh -s $(which zsh)`
+
+### terminal env
 I'm using **TMUX** and **VIM** for my terminal.
 
 For VIM I used this plugin collection:  
