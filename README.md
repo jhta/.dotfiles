@@ -4,6 +4,8 @@
 `sudo apt-get install vim tmux curl`
 
 ### github ssh keys
+add Email:
+` git config --global user.email "jeisonhs93@gmail.com"`
 `git clone https://github.com/jhta/gen-ssh-key && cd gen-ssh-key && sh generate-and-send-ssh-key.sh -u jeisonhs93 -d gmail.com`
 
 ### oh my zhell
