@@ -26,7 +26,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+export DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z command-not-found chucknorris dirhistory httpie history docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,13 +88,30 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-git config --global user.name "jeison-higuita"
-git config --global user.email "jeison.higuitaiguita@globant.com"
+#git config --global user.name "jeison-higuita"
+#git config --global user.email "jeison.higuitaiguita@globant.com"
+git config --global user.name "jhta"
+git config --global user.email "jeisonhs93@gmail.com"
+
 
 export ANDROID_HOME="$HOME/Android/Sdk/"
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 alias c=clear
 export TERM="screen-256color"
+export EDITOR='vim'
+alias docker="sudo docker"
+alias docker-compose="sudo docker-compose"
 
+#export ANDROID_EMULATOR_FORCE_32BIT=true
+alias studio="sh /usr/local/android-studio/bin/studio.sh"
+alias genymotion="/usr/local/genymotion/genymotion"
+#alias avd="${ANDROID_HOME}/tools/bin/avdmanager"
+#export NEXUS="Nexus_5X_API_24"
+# function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@";  }
 
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+alias python='python3'
