@@ -27,6 +27,12 @@ make zsh the default terminal:
 
 `chsh -s $(which zsh)`
 
+install autosuggestions:
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+more: https://github.com/zsh-users/zsh-autosuggestions/
+
+
 ### terminal env
 I'm using **TMUX** and **VIM** for my terminal.
 
