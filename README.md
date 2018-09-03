@@ -1,4 +1,6 @@
+
 # Configuration
+
 
 ### terminal tools
 `sudo apt-get install vim tmux curl httpie`
@@ -7,7 +9,7 @@ Mac:
 
 `brew install vim tmux curl httpie`
 
-### github ssh keys
+### git ssh keys
 add Email:
 ` git config --global user.email "jeisonhs93@gmail.com"`
 `git clone https://github.com/jhta/gen-ssh-key && cd gen-ssh-key && sh generate-and-send-ssh-key.sh -u jeisonhs93 -d gmail.com`
@@ -59,3 +61,7 @@ https://github.com/gpakosz/.tmux
 
 thiss has a lot of plugins for mouse mode, powerline and more.
 I'm using Tmuxp too for load my tmux sessions: https://tmuxp.git-pull.com/en/latest/
+
+## Custom config
+
+`git clone https://github.com/jhta/.dotfiles.git && sh .dotfiles/run.sh`
