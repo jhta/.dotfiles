@@ -1,7 +1,11 @@
 # Configuration
 
-### base tools
-`sudo apt-get install vim tmux curl`
+### terminal tools
+`sudo apt-get install vim tmux curl httpie`
+
+Mac:
+
+`brew install vim tmux curl httpie`
 
 ### github ssh keys
 add Email:
