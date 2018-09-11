@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+
+    // VIM configuration
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#005f5f",
+      "statusBar.noFolderBackground": "#005f5f",
+      "statusBar.debuggingBackground": "#005f5f"
+    },
+    "vim.statusBarColors.insert": "#afad03",
+    "editor.renderWhitespace": "boundary",
+    //"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true ,
+    "editor.fontSize": 13
+  }

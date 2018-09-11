@@ -1,0 +1,11 @@
+code --install-extens anseki.vscode-color
+code --install-extens dbaeumer.vscode-eslint
+code --install-extens donjayamanne.githistory
+code --install-extens dsznajder.es7-react-js-snippets
+code --install-extens eamodio.gitlens
+code --install-extens formulahendry.auto-close-tag
+code --install-extens jpoissonnier.vscode-styled-components
+code --install-extens kumar-harsh.graphql-for-vscode
+code --install-extens mikestead.dotenv
+code --install-extens msjsdiag.debugger-for-chrome
+code --install-extens vscodevim.vim
