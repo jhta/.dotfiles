@@ -68,6 +68,12 @@ https://github.com/gpakosz/.tmux
 
 thiss has a lot of plugins for mouse mode, powerline and more.
 I'm using Tmuxp too for load my tmux sessions: https://tmuxp.git-pull.com/en/latest/
+
+### Install kira code
+
+`brew tap caskroom/fonts`
+`brew cask install font-fira-code`
+
 __________________
 ## Custom config
 
@@ -95,6 +101,7 @@ re-install vim plugins:
 ### vim
 
 Support for ES6, Graphql, Styled components + Git lens improvments and Monokai as default theme
+
 
 ### Ready for work!
 
