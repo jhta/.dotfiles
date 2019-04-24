@@ -11,7 +11,7 @@ my tools and custom configuration for my terminal (Works on Mac and Ubuntu/Linux
 
 Mac:
 
-`brew install vim tmux curl httpie`
+`brew install vim tmux curl httpie tig`
 
 ### git ssh keys
 add Email:
