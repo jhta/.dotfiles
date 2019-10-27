@@ -7,11 +7,15 @@ my tools and custom configuration for my terminal (Works on Mac and Ubuntu/Linux
 
 
 ### terminal tools
-`sudo apt-get install vim tmux curl httpie`
+```
+sudo apt-get install vim tmux curl httpie
+```
 
 Mac:
 
-`brew install vim tmux curl httpie tig`
+```
+brew install vim tmux curl httpie tig
+```
 
 ### git ssh keys
 add Email:
@@ -23,22 +27,32 @@ First install `zsh` terminal
 
 Ubuntu/Debian:
 
-`sudo apt-get install zsh`
+```
+sudo apt-get install zsh
+```
 
 Mac:
 
-`brew install zsh`
+```
+brew install zsh
+```
 
 install [oh-my-zhell](https://github.com/robbyrussell/oh-my-zsh):
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 make zsh the default terminal:
 
-`chsh -s $(which zsh)`
+```
+chsh -s $(which zsh)
+```
 
 install autosuggestions:
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
 
 more: https://github.com/zsh-users/zsh-autosuggestions/
 
@@ -52,11 +66,15 @@ http://vim.spf13.com/
 
 copy the local VIM settings:
 
-`cp .vimrc.local $HOME/`
+```
+cp .vimrc.local $HOME/
+```
 
 install plugins:
 
-`vim +BundleInstall! +BundleClean +q`
+```
+vim +BundleInstall! +BundleClean +q
+```
 
 This has awesome plugins like Bundle, PowerLine, NerdTree and ControlP.
 
@@ -69,20 +87,48 @@ https://github.com/gpakosz/.tmux
 thiss has a lot of plugins for mouse mode, powerline and more.
 I'm using Tmuxp too for load my tmux sessions: https://tmuxp.git-pull.com/en/latest/
 
-### Install kira code
+### Install Fira code
 
-`brew tap caskroom/fonts`
-`brew cask install font-fira-code`
+```
+brew tap caskroom/fonts
+```
+```
+brew cask install font-fira-code
+```
 
 __________________
 ## Custom config
 
 **After install all the tools** run create symbolic links for dotfiles:
 
-`git clone https://github.com/jhta/.dotfiles.git && sh .dotfiles/run.sh`
+```
+git clone https://github.com/jhta/.dotfiles.git && sh .dotfiles/run.sh
+```
 
 re-install vim plugins:
-`vim +BundleInstall! +BundleClean +q`
+```
+vim +BundleInstall! +BundleClean +q
+```
+
+## ZSH
+Install theme for Iterm https://github.com/MartinSeeler/iterm2-material-design
+
+Install `spaceship-prompt`:
+
+```
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+```
+Symlink spaceship.zsh-theme to your oh-my-zsh custom themes directory:
+
+```
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+Set ZSH_THEME="spaceship" in your .zshrc.
+
+Install powerline/fonts:
+https://github.com/powerline/fonts
+
+Set `Fira code` as default on Iterm.
 
 ### theme:
 
