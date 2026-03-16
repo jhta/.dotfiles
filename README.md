@@ -1,5 +1,7 @@
 # dotfiles v2
 
+> Previous setup (oh-my-zsh + vim + tmux) is preserved in the [`v1` branch](https://github.com/jhta/.dotfiles/tree/v1).
+
 > Personal macOS developer environment
 
 ## What's inside
