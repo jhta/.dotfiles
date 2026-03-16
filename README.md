@@ -1,6 +1,6 @@
 # dotfiles v2
 
-> Jeison Higuita — macOS developer environment
+> Personal macOS developer environment
 
 ## What's inside
 

@@ -1,6 +1,6 @@
 [user]
-	name = Jeison Higuita
-	email = jeison@bitvavo.com
+	name = YOUR_NAME
+	email = YOUR_EMAIL
 
 [pull]
 	rebase = true

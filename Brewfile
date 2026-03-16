@@ -1,4 +1,4 @@
-# Brewfile — Jeison Higuita
+# Brewfile
 # Install everything: brew bundle
 
 # Taps
