@@ -1,0 +1,50 @@
+# Cursor / VS Code Extensions
+# Install all: cat extensions.txt | xargs -L 1 cursor --install-extension
+
+# Code quality & formatting
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+rvest.vs-code-prettier-eslint
+
+# TypeScript / JavaScript
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+yoavbls.pretty-ts-errors
+
+# Git
+eamodio.gitlens
+github.vscode-github-actions
+
+# Vim
+vscodevim.vim
+
+# UI / Theme
+dracula-theme.theme-dracula
+vscode-icons-team.vscode-icons
+johnpapa.vscode-peacock
+oderwat.indent-rainbow
+ibm.output-colorizer
+naumovs.color-highlight
+anseki.vscode-color
+
+# Testing
+orta.vscode-jest
+
+# Markdown / Docs
+shd101wyy.markdown-preview-enhanced
+tomoki1207.pdf
+
+# Languages
+mathiasfrohlich.kotlin
+anysphere.cpptools
+llvm-vs-code-extensions.vscode-clangd
+vscjava.vscode-gradle
+ms-vscode.cmake-tools
+vadimcn.vscode-lldb
+
+# API / Tools
+postman.postman-for-vscode
+malo.copy-json-path
+
+# Comments
+aaron-bond.better-comments

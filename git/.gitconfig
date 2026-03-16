@@ -1,0 +1,25 @@
+[user]
+	name = Jeison Higuita
+	email = jeison@bitvavo.com
+
+[pull]
+	rebase = true
+
+[core]
+	pager = delta
+	excludesfile = ~/.gitignore_global
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	dark = true
+	side-by-side = true
+	line-numbers = true
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default

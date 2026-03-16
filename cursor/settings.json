@@ -1,0 +1,55 @@
+{
+  "window.commandCenter": 1,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  // Vim plugin
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.statusBarColors.insert": ["#a9ac08", "#000000"],
+  "vim.statusBarColorControl": true,
+
+  // Theme: Dracula
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Custom color overrides
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff",
+    "activityBar.activeBackground": "#ab307e",
+    "activityBar.background": "#ab307e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ab307e",
+    "statusBarItem.hoverBackground": "#ab307e",
+    "statusBarItem.remoteBackground": "#832561",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#832561",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#83256199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+
+  // Formatters
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Jest
+  "jest.runMode": "on-demand",
+
+  // Markdown
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "markdown-preview-enhanced.revealjsTheme": "blood.css",
+
+  "security.promptForLocalFileProtocolHandling": false
+}

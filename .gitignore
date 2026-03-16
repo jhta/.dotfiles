@@ -1,0 +1,6 @@
+# Never commit real secrets
+.secrets
+*.bak
+
+# macOS
+.DS_Store
